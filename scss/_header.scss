@@ -1,0 +1,55 @@
+.header {
+  background-color: $base-color;
+  background-image: url('img/back_null_percents.jpg');
+  background-size: cover;
+  background-position: 85% 0;
+  padding: $base-padding 0;
+  position: relative;
+  font-weight: 100;
+}
+
+.header__fade {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: $base-color;
+  opacity: 0.5;
+}
+
+.header__container {
+  position: relative;
+}
+
+.header-links-right {
+  display: none;
+}
+
+.header__logo {
+  display: inline-block;
+  width: 75px;
+}
+
+.header__logo-image {
+  width: 100%;
+}
+
+.header__slogan {
+  margin-top: 4em;
+  font-size: 26px;
+  color: white;
+  line-height: 1.2;
+}
+
+.add-link {
+  margin-top: .7em;
+}
+
+.add-link__text {
+  font-size: 16px;
+  color: #D2D2D2;
+  margin-top: 1em;
+  margin-bottom: 1.3em;
+  line-height: 1.34;
+}

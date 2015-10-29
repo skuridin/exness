@@ -1,0 +1,19 @@
+@import 'normalize';
+@import '../vendor/slick/slick.scss';
+@import 'vars';
+@import 'fonts';
+@import 'layout';
+@import 'button';
+@import 'header';
+@import 'comission';
+@import 'payment';
+@import 'footer';
+
+@media (min-width: 1200px) {
+  @import 'layout-desktop';
+  @import 'header-desktop';
+  @import 'button-desktop';
+  @import 'comission-desktop';
+  @import 'payment-desktop';
+  @import 'footer-desktop';
+}

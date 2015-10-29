@@ -1,0 +1,28 @@
+.comission {
+  background-color: $yellow-color;
+  padding: $base-padding 0;
+}
+
+.comission__zero {
+  text-align: center;
+}
+
+.comission__image{
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.comission__text {
+  margin-top: 1.5em;
+  line-height: 1.46;
+  text-align: center;
+}
+
+.comission__for-all {
+  display: none;
+}
+
+.comission__short-text {
+  display: none;
+}

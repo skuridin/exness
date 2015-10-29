@@ -1,0 +1,35 @@
+.button {
+  display: table;
+  width: 235px;
+  height: 55px;
+  background-color: $yellow-color;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $base-color;
+  padding: 0 $base-padding;
+  font-size: 11px;
+  border: none;
+  &:focus {
+    outline: none;
+  }
+}
+
+.button--center {
+  margin: 0 auto;
+}
+
+.button-text {
+  font-weight: normal;
+  text-align: left;
+  display: table-cell;
+  vertical-align: middle;
+  padding-top: 0.4em;
+  width: 219px;
+}
+
+.button-text--arrow {
+  text-align: right;
+  font-size: 20px;
+  padding-top: 0.1em;
+  width: 15px;
+}
